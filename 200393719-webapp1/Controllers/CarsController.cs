@@ -31,7 +31,7 @@ namespace _200393719_webapp1.Controllers
                 return Content("Invalid car id");
             }
             var ind = Convert.ToInt32(id) - 1;
-            var car = car = carList[ind];
+            var car = carList[ind];
 
             return View(car);
 
